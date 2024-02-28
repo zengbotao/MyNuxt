@@ -7,6 +7,8 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 Make sure to install the dependencies:
 
 ```bash
+https://github.com/nuxt/starter/tree/v3 下载nuxt
+
 # npm
 npm install
 
@@ -72,4 +74,22 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### 目录
+
++ .nuxt
++ public    页面图标等
++ server
++ assets
++ components
++ layouts
++ middleware
++ pages     展示的页面，index/index.vue 默认的首页
++ plugins
++ static
++ store
+
+### 文件
+
++ jsconfig.json
++ nuxt.config.js
++ package.json
