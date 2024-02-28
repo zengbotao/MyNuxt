@@ -4,7 +4,7 @@
  * @Autor: zengbotao@myhexin.com
  * @Date: 2024-02-28 10:44:17
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-02-28 12:31:29
+ * @LastEditTime: 2024-02-28 12:45:56
 -->
 <template>
   <div>
@@ -18,3 +18,9 @@
 <script setup lang="ts">
 useSeoMeta({title:'zbt-web',description:'nuxt-learn'})
 </script>
+<style>
+:root{
+  /* 在这里全局修改vant按钮主题色 这里的style标签不能加上scoped，否则设置失败 */
+  --van-button-primary-color:#FB7299;
+}
+</style>
